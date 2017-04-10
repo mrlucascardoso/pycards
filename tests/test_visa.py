@@ -23,7 +23,7 @@ def test_is_valid(data):
 
 def test_brand(data):
     cards = [CreditCard(card['name'], code=card['code']) for card in data]
-    assert len(cards) == len([card for card in cards if card.brand == 'VISA'])
+    assert len(cards) == len([card for card in cards if card.brand == 'Visa'])
 
 
 def test_cardholder(data):
