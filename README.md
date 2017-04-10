@@ -4,6 +4,10 @@
 
 Set of classes for validating, identifying and formatting do credit cards and debit cards.
 
+```shell
+$ pip install python-cards
+```
+
 #### Example
 
 ```python
