@@ -9,7 +9,7 @@ os.chdir(os.path.normpath(os.path.join(os.path.abspath(__file__), os.pardir)))
 
 setup(
     name='python-cards',
-    version='1.2',
+    version='1.3',
     url='https://github.com/mrlucascardoso/pycards',
     license='MIT License',
     author='Lucas Cardoso',
